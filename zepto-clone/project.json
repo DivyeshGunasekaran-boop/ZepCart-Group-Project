@@ -1,0 +1,27 @@
+{
+  "overview": "A full-featured grocery delivery web app inspired by Zepto — India's fastest grocery delivery platform. Includes product browsing, category navigation, shopping cart, animated search, and a complete purple-branded design system.",
+  "features": [
+    "Animated search bar cycling through product suggestions",
+    "Category tabs navigation (All, Cafe, Fresh, Electronics, Beauty, Fashion)",
+    "Hero banner carousel with promotions",
+    "Product cards with ADD/quantity controls and discount badges",
+    "Sliding cart sidebar with item management",
+    "Location selector dropdown",
+    "Login modal UI",
+    "Multiple product sections (Laundry, Cleaning, Rice, Dal, Personal Hygiene, Hair Care)",
+    "Responsive mobile and desktop layouts",
+    "Zepto-inspired purple brand design system",
+    "Footer with app download links and policy links"
+  ],
+  "category": "e-commerce",
+  "tags": [
+    "grocery",
+    "delivery",
+    "e-commerce",
+    "zepto",
+    "shopping",
+    "react",
+    "cart"
+  ],
+  "last_updated": "2026-04-12T04:34:20.516Z"
+}

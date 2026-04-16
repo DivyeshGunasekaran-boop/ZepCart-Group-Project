@@ -1,0 +1,25 @@
+type ProductId = nat;
+type Product = 
+ record {
+   brand: text;
+   category: text;
+   discount: int;
+   discountLabel: text;
+   id: ProductId;
+   imageUrl: text;
+   inStock: bool;
+   name: text;
+   originalPrice: int;
+   price: int;
+   rating: float64;
+   reviewCount: int;
+   subcategory: text;
+   tags: vec text;
+   weight: text;
+ };
+service : {
+  getBestsellers: () -> (vec Product) query;
+  getFeaturedProducts: () -> (vec Product) query;
+  getProducts: () -> (vec Product) query;
+  getProductsByCategory: (category: text) -> (vec Product) query;
+}

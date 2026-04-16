@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"d:\\\\Front End Web Development\\\\Zepto\\\\zepto-clone\" ; node update-imports\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
